@@ -1,7 +1,10 @@
-
+let PrecioCabalgataDosHoras = (4000)
+let PrecioCabalgataTresHoras = (6000)
+let PrecioCabalgataCuatroHoras = (8000)
+let transferencia
 
 function login(){
-    alert("¡Bienvenid@ a la página web oficial de Cabalgatas -Puesto Los Amigos- ! Aquí encontrará y tendrá acceso a todo nuestros servicios.")
+    alert("¡Bienvenid@! a la página web oficial de Cabalgatas -Puesto Los Amigos- Aquí encontrará y tendrá acceso a todo nuestros servicios.")
     alert("Las cabalgatas pueden ser abonadas en efectivo o transferencia.")
     let busqueda = prompt("¿Qué tipo de cabalgata desea realizar? (Cabalgata dos horas, Cabalgata tres horas, Cabalgata cuatro horas)").toUpperCase()
     if (busqueda == "Cabalgata dos horas"){
